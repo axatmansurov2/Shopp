@@ -6,7 +6,7 @@ import com.example.shopp.service.BaseService;
 
 public interface UserService extends BaseService<User> {
 
-    User SignIn(String username, String password);
+    User SignIn(String email, String password);
 
     User SignUp(UserCreateDto userCreateDto);
 
