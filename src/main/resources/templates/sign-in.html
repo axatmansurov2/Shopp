@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign in</title>
+</head>
+<body>
+
+<form action="/sign-in" >
+    <input name="email" type="text" placeholder="enter email">
+    <input name="password" type="password" placeholder="enter password">
+    <input class="input" type="text" name="role" placeholder="enter role" required list="roles">
+    <datalist id="roles">
+        <option>ADMIN</option>
+        <option>USER</option>
+        <option>SELLER</option>
+    </datalist>
+    <button>Submit</button>
+</form>
+
+</body>
+</html>
